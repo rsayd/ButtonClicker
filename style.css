@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: auto;
+}
+
+nav {
+    background-color: grey;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 15px;
+}
+
+main {
+    background-color: white
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.searchbar {
+    height: 30px;
+    width: 310px;
+    background-color: white;
+}
+
+.login {
+    background-color: blue;
+    color: white;
+    font-size: 35px;
+    outline: black;
+}
+
+.toprow {
+    height: 270px;
+    width: 450px;
+    outline: 3px solid black;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+}
+
+.toprightbox {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    padding: 50px 30px;
+}
+
+.mainname {
+    font-size: 40px
+}
+
+.likes {
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    outline: black;
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+.top-text {
+    padding: 20px;
+    color: black;
+    font-size: x-large;
+    padding-top: 25px;
+}
+
+
+.rightbox {
+    height: 200px;
+    width: 300px;
+    outline: 3px solid black;
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px 20px;
+    font-size: 30px;
+}
+
+.definition {
+    background-color: lightgreen;
+    color: black;
+    outline: black;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.bottomrow {
+    height: 270px;
+    width: 450px;
+    outline: 3px solid black;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+}
+
+.text-top {
+    padding: 20px;
+    color: black;
+    font-size: x-large;
+    padding-top: 25px;
+}
+
+.parentup {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.parentbottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomrightbox {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    padding: 50px 30px;
+}
